@@ -15,7 +15,6 @@ const colorMode = useColorMode()
   <div>
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
-    <p class="bg-red-500 dark:bg-white dark:text-amber-400">Test</p>
     <NuxtLink to="/api/login" external>
       Sign in
     </NuxtLink>
